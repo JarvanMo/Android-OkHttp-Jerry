@@ -22,11 +22,11 @@ it's simple!
         }
       Jerry.with(context).load("your url").post(params).result(new JerryCallBack());
 ```
-context is not necessary , so you also  can do this
+context is not necessary , so you can also do this
 ```
      Jerry.with(this).load("your url").post(params).result(new JerryCallBack());
 ```
-if you do not cared about your result
+if you are not concerned about your result
 ```
     Jerry.load("your url").post(params).result();
 ```
