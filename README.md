@@ -30,7 +30,7 @@ if you do not cared about your result
 ```
     Jerry.load("your url").post(params).result();
 ```
-with configration
+with configration.The default connection and read timeout are 10s,but you can customize them in your own for a special call.
 ```
 Jerry.load("your url").post(params).noProgressBar().tag(this).connectionTimeout(10000).readTimeout(1000).result();
 ```
