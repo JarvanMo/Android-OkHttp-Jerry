@@ -30,7 +30,7 @@ if you are not concerned about your result
 ```
     Jerry.load("your url").post(params).result();
 ```
-with configration.The default connection and read timeout are 10s,but you can customize them in your own for a special call.
+with configration.The default connection and read timeout are 10s,but you can customize them  for a special call.
 ```
 Jerry.load("your url").post(params).noProgressBar().tag(this).connectionTimeout(10000).readTimeout(1000).result();
 ```
@@ -47,6 +47,6 @@ you can cancel it too
 CallBack
 ---------
 > **Note:**
-> -no matter what kind method you use such as pot,download, you will  always get String in **onSuccess(String result)**. When you wanna download something,you'll get it's path in  **onSuccess(String result)**, when downlading , Jerry will call **onDownload(int totalSize, int curSize)** back,  in the other method ,it's never called.
+> -no matter what kind method you use such as pot,download, you will  always get String in **onSuccess(String result)**., so you use GSON or fastjson etc to parse the result.When you wanna download something,you'll get it's path in  **onSuccess(String result)**, when downlading , Jerry will call **onDownload(int totalSize, int curSize)** back,  in the other method ,it's never called.
 >
 
