@@ -10,7 +10,7 @@ Jerry is just a **Utils**  for   **OKHTTP** in Android.It has  **FLUENT APIS** .
 Usage
 -------------
 
-it's simple!
+it's simple! I also give a smaple in my lib.
 ```
       RequestParams params = new RequestParams();
         params.put("key", "value");
