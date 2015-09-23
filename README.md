@@ -24,7 +24,7 @@ it's simple! I also give a smaple in my lib.
 ```
 context is not necessary , so you can also do this
 ```
-     Jerry.with(this).load("your url").post(params).result(new JerryCallBack());
+     Jerry.load("your url").post(params).result(new JerryCallBack());
 ```
 if you are not concerned about your result
 ```
