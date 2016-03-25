@@ -35,11 +35,7 @@ with configration.The default connection and read timeout are 10s,but you can cu
 Jerry.load("your url").post(params).noProgressBar().tag(this).connectionTimeout(10000).readTimeout(1000).result();
 ```
 
-you can cancel it too
-```
-    CallAttach attach =  Jerry.load("your url").post(params).result().callAttach();
-      attach.cancel(this);
-```
+
 > **Note:**
 
 > - if you try to cancel a null object you'll get an exception
