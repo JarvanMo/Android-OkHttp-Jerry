@@ -3,7 +3,8 @@
 
 
 Jerry is just a **Utils**  for   **OKHTTP** in Android.It has  **FLUENT APIS** .
-From ok-http 3.2.0 , square has changed lots of its apis a , so I'm still developing the new version of Jerry.
+
+From ok-http 3 , square has changed lots of its apis a , so I'm still developing the new version of Jerry.
 
 ----------
 
